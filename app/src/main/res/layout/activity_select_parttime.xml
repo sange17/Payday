@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:background="#fbf5df"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font"
+            android:layout_weight="1"
+            android:buttonTint="@color/peach"
+            android:text="@string/choose" />
+
+        <RadioButton
+            android:id="@+id/rb_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/peach"
+            android:layout_weight="1"
+            android:text="@string/edit"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font"/>
+
+        <RadioButton
+            android:id="@+id/rb_delete"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/font"
+            android:buttonTint="@color/peach"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/delete" />
+
+    </RadioGroup>
+</LinearLayout>

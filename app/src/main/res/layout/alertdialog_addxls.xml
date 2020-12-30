@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#fbf5df"
+    android:focusedByDefault="true"
+    tools:context=".AlertDialog_filepath"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="※사용안내※"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/font"
+            android:background="@drawable/smalltitles"/>
+
+        <TextView
+            android:id="@+id/txt_XlsExplain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/font" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="파일을 생성하시겠습니까?"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/font"
+            android:background="@drawable/smalltitles"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_XlsYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/totalbuttonshape"
+                android:fontFamily="@font/font"
+                android:text="예"
+                android:textSize="25sp"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_XlsNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/totalbuttonshape"
+                android:fontFamily="@font/font"
+                android:text="아니요"
+                android:textSize="25sp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

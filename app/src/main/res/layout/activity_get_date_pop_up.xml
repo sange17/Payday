@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fbf5df"
+
+    >
+
+        <DatePicker
+            android:id="@+id/DatePicker"
+            android:theme="@style/NumberPickerStyle"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_Close"
+            android:layout_width="match_parent"
+            android:background="@drawable/totalbuttonshape"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font"
+            android:onClick="mOnClick"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:text="저장" />
+
+
+
+</LinearLayout>

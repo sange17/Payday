@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbf5df"
+    android:focusedByDefault="true"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/sclinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font"
+                        android:text="알바계산기"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <Button
+                        android:id="@+id/btn_spFrom"
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:background="@drawable/totalbuttonshape"
+                        android:fontFamily="@font/font"
+                        android:gravity="center"
+                        android:text="몇일부터"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/font"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_fromto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:text="@string/fromTo"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/btn_spTo"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:background="@drawable/totalbuttonshape"
+                        android:fontFamily="@font/font"
+                        android:gravity="center"
+                        android:text="몇일까지"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:fontFamily="@font/font"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="30"
+                    android:gravity="start"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cb_susoup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#ED7E76"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/font"
+                        android:text="수습기간이면 체크해"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/btn_helpProbationPeriod"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/questionmark"
+                        android:textSize="5sp"
+                        android:contentDescription="@string/todo" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="30"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <EditText
+                        android:id="@+id/txt_monthlyPay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:fontFamily="@font/font"
+                        android:inputType="textPersonName"
+                        android:text="0 원"
+                        android:textAlignment="center"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="30"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <Button
+                        android:id="@+id/btn_ChooseParttime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/totalbuttonshape"
+                        android:fontFamily="@font/font"
+                        android:text="@string/chooseparttime"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="50"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <com.alba.lionproject1.customcalendarview
+                        android:id="@+id/customcalendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </com.alba.lionproject1.customcalendarview>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_EvidenceCsv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginEnd="9dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/totalbuttonshape"
+                        android:fontFamily="@font/font"
+                        android:text="증거물 파일 생성"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="9dp" />
+
+                    <Button
+                        android:id="@+id/btn_ImgFilePath"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/totalbuttonshape"
+                        android:fontFamily="@font/font"
+                        android:text="파일 경로"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="18dp" />
+
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

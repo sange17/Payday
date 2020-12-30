@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fbf5df"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".registerWork">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="(날짜텍스트 ex.2020.03.25)" />
+
+        <TextView
+            android:id="@+id/albaName"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/font"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="알바이름입력"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="오늘근무시간" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_rwDateFrom"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:background="@drawable/totalbuttonshape"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:text="현재날짜" />
+
+            <TextView
+                android:id="@+id/txt_rwDateFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/blanks"
+                android:fontFamily="@font/font"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/font"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="@string/fromTo"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_rwDateTo"
+                android:background="@drawable/totalbuttonshape"
+                android:layout_width="50dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:text="몇일까지" />
+
+            <TextView
+                android:id="@+id/txt_rwDateTo"
+                android:fontFamily="@font/font"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/blanks"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_rwFrom"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:background="@drawable/totalbuttonshape"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:text="@string/towhattime" />
+
+            <TextView
+                android:id="@+id/txt_rwFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/blanks"
+                android:fontFamily="@font/font"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/font"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="@string/fromTo"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_rwTo"
+                android:background="@drawable/totalbuttonshape"
+                android:layout_width="50dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:text="@string/fromwhattime" />
+
+            <TextView
+                android:id="@+id/txt_rwTo"
+                android:fontFamily="@font/font"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/blanks"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_memo222"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="메모" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_memo"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/font"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttomline"
+                android:hint="@null"
+                android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="출근인증사진" />
+
+        <ImageView
+            android:id="@+id/iv_picture_at_work"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            app:srcCompat="@drawable/border"
+            android:contentDescription="@string/todo"
+            />
+
+        <Button
+            android:id="@+id/btn_takepicture"
+            android:background="@drawable/totalbuttonshape"
+            android:fontFamily="@font/font"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TakePictureSaying" />
+        <TextView
+            android:id="@+id/txt_gettingoffthework"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photo_getoffwork"
+            android:textColor="#000000"
+            android:fontFamily="@font/font"
+            android:textSize="20sp"
+
+            />
+        <ImageView
+            android:id="@+id/iv_picture_out_work"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            app:srcCompat="@drawable/border"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/btn_takepicture_afterWork"
+            android:background="@drawable/totalbuttonshape"
+            android:fontFamily="@font/font"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TakePictureSaying" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_rwSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/totalbuttonshape"
+                android:fontFamily="@font/font"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/btn_rwCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/font"
+                android:background="@drawable/totalbuttonshape"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:text="취소" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

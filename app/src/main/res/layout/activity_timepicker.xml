@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:background="#fbf5df"
+    android:gravity="start"
+    android:orientation="vertical">
+
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:id="@+id/timepicker"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tpSave"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/font"
+            android:background="@drawable/totalbuttonshape"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:text="저장" />
+
+        <Button
+            android:id="@+id/btn_tpCancel"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:background="@drawable/totalbuttonshape"
+            android:fontFamily="@font/font"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="취소" />
+    </LinearLayout>
+
+</LinearLayout>
