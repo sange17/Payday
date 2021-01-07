@@ -1,2 +1,2 @@
 # Payday
-아르바이트 수당 계산, 스케줄 관리, 권리 보장 증거 파일 생성 앱
+Part-time job allowance calculation, schedule management, rights guarantee evidence file generation app
