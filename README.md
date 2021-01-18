@@ -12,8 +12,8 @@
 
 기술(Skills)
 ------------
-## 1. Mobile
+### 1. Mobile
 * JAVA(Android Studio)
 
-## 2. Database
+### 2. Database
 * Sqlite
