@@ -10,7 +10,7 @@
 
 <br>
 
-##기술(Skills)
+## 기술(Skills)
 ### 1. Mobile
 * JAVA(Android Studio)
 
