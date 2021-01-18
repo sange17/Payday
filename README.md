@@ -10,10 +10,12 @@
 
 <br>
 
-기술(Skills)
-------------
+##기술(Skills)
 ### 1. Mobile
 * JAVA(Android Studio)
 
 ### 2. Database
 * Sqlite
+
+## 기여해 주신 분(Contributor)
+* [신준호](https://github.com/shinjuno123)
