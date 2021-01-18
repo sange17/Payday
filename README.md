@@ -19,3 +19,4 @@
 
 ## 기여해 주신 분(Contributor)
 * [신준호](https://github.com/shinjuno123)
+* [이동규](https://github.com/DongGyu1996)
