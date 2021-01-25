@@ -75,3 +75,4 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105662791-f2f39880-5f13-11eb-92ba-f729d943cfca.PNG">
 </p>
+* [앱 다운로드 링크](https://play.google.com/store/apps/details?id=com.alba.lionproject1&hl=ko)
