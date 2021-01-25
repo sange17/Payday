@@ -31,21 +31,25 @@
 <img src="https://user-images.githubusercontent.com/73435545/105659835-10713400-5f0d-11eb-970e-e047fb852ec4.PNG">
 </p>
 <p align="center">메인 페이지(Main page)</p>
+------------------------------------------
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105659866-20891380-5f0d-11eb-8ba2-ae1c2416601d.PNG">
 </p>
 <p align="center">아르바이트 정보 입력 페이지(Part-time job information entry page)</p>
+------------------------------------------
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105660365-2d5a3700-5f0e-11eb-9f34-f73fd03898ff.PNG">
 </p>
 <p align="center">인증 사진 등록 페이지(Authentication photo registration page)</p>
+------------------------------------------
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105660484-78744a00-5f0e-11eb-9efc-b5fd92c14be7.PNG">
 </p>
 <p align="center">도움말(Information)</p>
+------------------------------------------
 
 ## 기대효과(Benefit)
 아르바이트 시급 정보를 입력하고 일정을 입력할 시 그에 맞는 총 급여를 달마다 쉽게 알 수 있고 출/퇴근 기록물은 혹시 모를 부당한 일에 대비하여 필요할 시 엑셀 데이터로 출력하여 증명할 수 있는 자료로 사용하실 수 있습니다.
