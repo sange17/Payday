@@ -31,7 +31,7 @@
 <img src="https://user-images.githubusercontent.com/73435545/105659835-10713400-5f0d-11eb-970e-e047fb852ec4.PNG">
 </p>
 <p align="center">메인 페이지(Main page)</p>
----
+* * *
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105659866-20891380-5f0d-11eb-8ba2-ae1c2416601d.PNG">
