@@ -56,9 +56,13 @@
 - - -
 
 ## 기대효과(Benefit)
-아르바이트 시급 정보를 입력하고 일정을 입력할 시 그에 맞는 총 급여를 달마다 쉽게 알 수 있고 출/퇴근 기록물은 혹시 모를 부당한 일에 대비하여 필요할 시 엑셀 데이터로 출력하여 증명할 수 있는 자료로 사용하실 수 있습니다.
+1. 주 단위나 월 단위가 아닌 자신이 원하는 일정에 맞는 총 급여를 알 수 있다.
+  * You can see the total salary that fits your desired schedule, not weekly or monthly.
+2. 저장된 기록물로 근로자의 권리를 보장할 수 있다.
+  * The rights of workers can be guaranteed with stored records.
 
 ## 등록(Sign Up)
+* Google Playstore
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73435545/105662791-f2f39880-5f13-11eb-92ba-f729d943cfca.PNG">
 </p>
